@@ -19,16 +19,21 @@ PYTHON / İLERİ SEVİYE
 
 **Python ile terminal komutları kullanırken sıkça karşılaşılan bazı komutlar:**
 ```python
-ls      #İlgili Klasör içindeki tüm dosyaları listeler.
-dir      #İlgili Klasör içindeki tüm dosyaları listeler.
-cd [Dosya Adı]       #ilgili dizindeki dosyaya geçiş yapar.
-cd..        #Bir üst Klasöre geçiş yapar.
-cls         #Ekranı Temizler (Sadece Windows için).
-clear       #Ekranı Temizler.
-mkdir [Dosya Adı]       #Klasör Oluşturmak için.
+ls      # İlgili Klasör içindeki tüm dosyaları listeler.
+dir      # İlgili Klasör içindeki tüm dosyaları listeler.
+cd [Dosya Adı]       # ilgili dizindeki dosyaya geçiş yapar.
+cd..        # Bir üst Klasöre geçiş yapar.
+cls         # Ekranı Temizler (Sadece Windows için).
+clear       # Ekranı Temizler.
+mkdir [Dosya Adı]       # Klasör Oluşturmak için.
+rmdir [Klasör Adı]       # Klasör Silmek için.
+del [Dosya Adı]       # Dosya silmek için.
+code .      # Konumlanmış Kod Editörünü açmak.
 
 
 echo $null >> first_app.py      #Python dosyası Ouşturmak için
+python [Dosya_Adi.py]       #Python Dosyalarını Çalıştırır.
+
 
 
 python      # Python yorumlayıcısını başlatır.
@@ -55,3 +60,20 @@ exit() veya Ctrl+D      # Python yorumlayıcısını kapatır.
 **Bu komutlar, Python geliştirme sürecinde sıkça kullanılır ve paket yönetimi, sanal ortamlar, betik dosyalarının çalıştırılması gibi çeşitli görevleri gerçekleştirmek için kullanılır.**
 
 - Diğer Komutlar İçin [Tıklayın.](Komutlar.md)
+
+
+## 6 - fist_app.py - İLK UYGULAMA
+![alt](img/6.png)
+
+Yazdırmakta hata yaşadıysanız:
+-Masaüstü'ne bir Yeni Klasör Oluşturun
+- Başlata Tıklayın
+- Python 3.12 > IDLE (Python 3.12 64-bit) -> Burada sürümünüz farklı olabilir önemli değil.
+- **IDLE Shell** açılacaktır.
+- Ctrl + S tuşlarına basarak çalışmayı boş olarak masaüstündeki Yeni klasöre kaydedin.
+- Yeni Klasöre Gelin ve Sağ Clik yapın Vs code ile açın .
+- Kaydettiğiniz dosyayı sol taraftan tıklayarak açın.
+- içindebir şeyler yazılı ise Hepsini silin.
+- print("Merhaba") yazın.
+- Ctrl + S Kaydet ve Çalıştırın.
+  
