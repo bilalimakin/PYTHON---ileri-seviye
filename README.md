@@ -16,8 +16,23 @@ PYTHON / İLERİ SEVİYE
 
 ## 5 - VS CODE - Terminalde Çalışmak.
 
+## 4 - VS CODE - Editör Seçme ve Eklentiyi Kurmak
+![alt](img/5.png)
+
 **Python ile terminal komutları kullanırken sıkça karşılaşılan bazı komutlar:**
 ```python
+ls      #İlgili Klasör içindeki tüm dosyaları listeler.
+dir      #İlgili Klasör içindeki tüm dosyaları listeler.
+cd [Dosya Adı]       #ilgili dizindeki dosyaya geçiş yapar.
+cd..        #Bir üst Klasöre geçiş yapar.
+cls         #Ekranı Temizler (Sadece Windows için).
+clear       #Ekranı Temizler.
+mkdir [Dosya Adı]       #Klasör Oluşturmak için.
+
+
+echo $null >> first_app.py      #Python dosyası Ouşturmak için
+
+
 python      # Python yorumlayıcısını başlatır.
 pip      # Python paketlerini yönetir (kurma, kaldırma, güncelleme vb.).
 python dosya_adı.py      # Python betik dosyasını çalıştırır.
