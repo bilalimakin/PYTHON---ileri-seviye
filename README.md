@@ -10,3 +10,6 @@ PYTHON / İLERİ SEVİYE
 
 ## 3 - POWER SHELL - Versiyonlar arasında Geçiş ve Yorumlayıcı Test Etme
 ![alt](img/3.png)
+
+## 4 - VS CODE - Editör Seçme ve Eklentiyi Kurmak
+![alt](img/4.png)
