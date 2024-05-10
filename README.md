@@ -15,8 +15,6 @@ PYTHON / İLERİ SEVİYE
 ![alt](img/4.png)
 
 ## 5 - VS CODE - Terminalde Çalışmak.
-
-## 4 - VS CODE - Editör Seçme ve Eklentiyi Kurmak
 ![alt](img/5.png)
 
 **Python ile terminal komutları kullanırken sıkça karşılaşılan bazı komutlar:**
