@@ -36,6 +36,7 @@ python [Dosya_Adi.py]       #Python Dosyalarını Çalıştırır.
 
 
 
+
 python      # Python yorumlayıcısını başlatır.
 pip      # Python paketlerini yönetir (kurma, kaldırma, güncelleme vb.).
 python dosya_adı.py      # Python betik dosyasını çalıştırır.
@@ -62,7 +63,7 @@ exit() veya Ctrl+D      # Python yorumlayıcısını kapatır.
 - Diğer Komutlar İçin [Tıklayın.](Komutlar.md)
 
 
-## 6 - fist_app.py - İLK UYGULAMA
+## 6 - İLK UYGULAMA - fist_app.py  
 ![alt](img/6.png)
 
 Yazdırmakta hata yaşadıysanız:
@@ -77,3 +78,66 @@ Yazdırmakta hata yaşadıysanız:
 - print("Merhaba") yazın.
 - Ctrl + S Kaydet ve Çalıştırın.
   
+  ## 7 - PYTHON - Objeler ve Veri Yapıları
+  
+
+```python
+python      # Python yorumlayıcısını başlatır.
+quit()      # Python yorumlayıcısını Kapatır.
+# Tek Satır           # Tek yorum satırı.
+""" Çok Yorum Satırı """   # Çoklu yorum satırı.
+
+type([Veri])        #Değerin Veri tipini verir
+
+```
+
+### Numbers: Insteger & Float & String & Bool 
+*(Tam Sayılar & Ondalık Sayılar & Metinsel İfadeler & Boolean ifadeler)*
+
+|Integer        |Floating Point | String        | Bool          |
+| ------------- | ------------- | ------------- | ------------- |
+| 5             | 5.2           | Beş           | True          |
+| 25            | 2.333         | İki virgül üç | True          |
+| -23           | 0.0           | Sıfır         | False         |
+
+
+### Numbers: Math Operators 
+*(Matematik Operatörleri)*
+
+|Symbol         |Name           |
+| ------------- | ------------- |
+| +             | Toplama       |
+| -             | Çıkarma       |
+| /             | Bölme         |
+| *             | Çarpma        |
+| **            | Üs            |
+| %             | Mod           |
+| //            | Tam Bölme     |
+
+### Numbers: Logic Operators 
+*(Mantıksal Operatörleri)*
+
+|Symbol         |Name           |
+| ------------- | ------------- |
+| =             | Atama         |
+| +=            | Artırma       |
+| -=            | Azaltma       |
+| /             | Bölme         |
+| *             | Çarpma        |
+| **            | Üs            |
+| %             | Mod           |
+| //            | Tam Bölme     |
+
+![alt](img/7.png)
+
+### Değişken Tanımlama - Atama İşlemleri
+
+- Değişken tanımlarken, Rakam ile başlayamaz
+- Büyük - Küçük harf Duyarlılığı vardır. User ile user farklı değişkenlerdir.
+- Türkçe karekterler Kullanılmamalıdır.
+- İki değişkenin Veri türü String ise ve Toplama operatörü kullanılırsa Toplamaz Birleştirir.
+- İki değişken Arasında Boşluk Olamaz.
+
+
+![alt](img/8.1.png)
+
