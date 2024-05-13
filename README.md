@@ -78,7 +78,7 @@ Yazdırmakta hata yaşadıysanız:
 - print("Merhaba") yazın.
 - Ctrl + S Kaydet ve Çalıştırın.
   
-  ## 7 - PYTHON - Objeler ve Veri Yapıları
+## 7 - PYTHON - Objeler ve Veri Yapıları
   
 
 ```python
@@ -141,3 +141,204 @@ type([Veri])        #Değerin Veri tipini verir
 
 ![alt](img/8.1.png)
 
+
+### Değişken Tanımlama - Veri Dönüşüm Tipleri
+
+```python
+x = 12       # Bu veri int değerindedir.
+y = "12"     # Bu veri str değerindedir.
+z = True    # Bu veri bool değerindedir.
+
+
+print(type( x ))      # Burada x değerinin tipini sorguladığımızda <class 'int'> sonucunu vericektir.
+print(type( y ))      # Burada y değerinin tipini sorguladığımızda <class 'str'> sonucunu vericektir.
+print(type( z ))      # Burada z değerinin tipini sorguladığımızda <class 'bool'> sonucunu vericektir.
+
+print( x )            # Burada x değerinin çıktısını **12** olarak vericektir.
+print( y )            # Burada x değerinin çıktısını **"12"** olarak vericektir.
+print( z )            # Burada x değerinin çıktısını **True** olarak vericektir.
+```
+
+**Veri tiplerini dönüştürelim**
+
+- "int" veri tipindeki bir veriyi "str" veri tipine dönüştürmek istersem:
+
+```python
+x = 12
+
+x = str ( x )
+
+
+print(type( x ))      # Burada x değerinin tipini sorguladığımızda <class 'str'> sonucunu vericektir.
+print( x )            # Burada x değerinin çıktısını **"12"** olarak vericektir.
+```
+
+- "str" veri tipindeki bir veriyi "int" veri tipine dönüştürmek istersem:
+
+```python
+y = "12"
+y = int ( y )
+
+print(type( y ))      # Burada y değerinin tipini sorguladığımızda <class 'int'> sonucunu vericektir.
+print( y )            # Burada y değerinin çıktısını **12** olarak vericektir.
+```
+
+
+- "bool" veri tipindeki bir veriyi "int" veri tipine dönüştürmek istersem; True için 1 , False için 0 değerini alıcaktır. 
+
+```python
+z = True
+
+print( z )            # Burada z değerinin çıktısı **True** olucaktır
+
+z = int ( z )
+
+print( type( z ) )      # Burada z değerinin tipini sorguladığımızda <class 'int'> sonucunu vericektir.
+print( z )            # Burada z değerinin çıktısı **1** olucaktır
+```
+```python
+z = False
+
+print( z )            # Burada z değerinin çıktısı **False** olucaktır
+
+z = int ( z )
+
+print( type( z ) )      # Burada z değerinin tipini sorguladığımızda <class 'int'> sonucunu vericektir.
+print( z )            # Burada z değerinin çıktısı **0** olucaktır
+```
+
+
+### PYTHON / input() - Kullanıcıdan Bilgi alma ve hesaplama
+
+- Örnek : Yarı çapı verilen bir dairenin Alan ve Çevre hesaplamalarını yapalım.
+
+```python
+
+'''
+
+Dairenin Alanı      :   πr²
+Dairenin çevresi    :   2πr
+
+'''
+
+pi = 3.14
+
+r = float(input("Dairenin yarı Çapını girin : "))
+
+
+alan    = pi * ( r ** 2)  # πr²
+
+print(type(alan))
+
+cevre   = 2 * pi * r     # 2πr
+
+print(type(cevre))
+
+
+print("Alan : " + str(alan))
+print("Çevre : " + str(cevre))
+
+```
+
+
+
+### PYTHON / len() & [] - Karekter Dizileri 
+
+```python
+
+Name = 'Bilal'
+Surname = 'AKIN'
+Age = 29
+
+print( "My name is " + Name + " " + Surname + " and  \nI am " + str(Age) + " years old." )
+
+
+
+```
+
+- Verinin karekterleri ile çalışma **Veri[]**
+```python
+Name = 'Bilal'
+
+print(Name[1])
+print(Name[3])
+print(Name[5])
+
+```
+
+- Verinin karekter Sayısını Hesaplama **len(Veri)**
+
+```python
+
+Name = 'Bilal'
+
+print(len(Name))
+
+```
+
+- Verinin Son Karekterini yazdırma **len(Veri)-1**
+
+```python
+
+Name = 'Bilal'
+
+# 1.yol
+
+print(Name[len(Name)-1])
+
+# 2.yol
+
+print(Name[-1])
+
+```
+
+- İki index arsındaki veriyi yazdırma **Veri[Baslangıç(X):Bitiş(Y)]**
+
+```python
+
+Name = 'Bilal'
+
+print(Name[1:3])
+
+```
+
+- Belirlenen indexten sonrasını yazdırma **Veri[X:]**
+
+```python
+
+Name = 'Bilal'
+
+print(Name[1:])
+
+```
+
+- Belirlenen indexten Öncesini yazdırma **Veri[:Y]**
+
+```python
+
+Name = 'Bilal'
+
+print(Name[:3])
+
+```
+
+- İki index arasındaki karekterlerin birini alıp birini almaması **Veri[X:Y:Kaçarkaçaralsın(Z)]**
+
+```python
+
+Name = 'Bilal AKIN'
+
+print(Name[1:10:2])
+
+```
+
+### PYTHON / {} format() - String Formatlama 
+
+```python
+
+Name = 'Bilal'
+Surname = 'AKIN'
+
+print('My name is {} {}'.format(Name, Surname))
+
+```
